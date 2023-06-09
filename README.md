@@ -1,6 +1,5 @@
 # Client
 
-This is the [MultiMC](https://multimc.org) Client of ReChiren. 
+This is the [MultiMC](https://multimc.org) client.
 
-Packed versions ready for import can be found in releases.
-
+For the server, see [rechiren-server](https://github.com/voidentente/rechiren-server).
