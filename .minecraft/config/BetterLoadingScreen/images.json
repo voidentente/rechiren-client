@@ -1,0 +1,69 @@
+[
+  {
+    "resourceLocation": "cmm:0.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 1024
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "BOTTOM_CENTER",
+    "type": "DYNAMIC_TEXT_STATUS",
+    "position": {
+      "x": 0,
+      "y": 30,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "000000",
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "BOTTOM_CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 20,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 728,
+      "height": 20
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "BOTTOM_CENTER",
+    "type": "DYNAMIC_PERCENTAGE",
+    "texture": {
+      "x": 0,
+      "y": 25,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 728,
+      "height": 20
+    },
+    "comment": "None"
+  }
+]

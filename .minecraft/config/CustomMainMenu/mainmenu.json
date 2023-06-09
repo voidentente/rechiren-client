@@ -1,0 +1,176 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "cmm:logo.png",
+            "posX" : -125,
+            "posY" : -150,
+            "width" : 250,
+            "height" : 125,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Testing",
+            "texture": "cmm:button.png",
+            "posX" : -40,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+            "alignment": "center",
+            "hoverTextColor": -512129,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Gaming",
+            "texture" : "cmm:button.png",
+            "posX" : -40,
+            "posY" : 20,
+            "width" : 80,
+            "height" : 20,
+            "alignment": "center",
+            "hoverTextColor": -512129,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "texture" : "cmm:button.png",
+            "posX" : -40,
+            "posY" : 40,
+            "width" : 80,
+            "height" : 20,
+            "alignment": "center",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Settings",
+            "texture" : "cmm:button.png",
+            "posX" : -40,
+            "posY" : 60,
+            "width" : 80,
+            "height" : 20,
+            "alignment": "center",
+            "hoverTextColor": -512129,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Javan't",
+            "texture" : "cmm:button.png",
+            "posX" : -40,
+            "posY" : 80,
+            "width" : 80,
+            "height" : 20,
+            "alignment": "center",
+            "hoverTextColor": -512129,
+            "tooltip": "Touch grass?",
+            "hoverText": "Yes",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "quickconnect-local-server":
+        {
+            "text" : "<",
+            "posX" : -60,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "center",
+            "texture" : "cmm:button_smol.png",
+            "hoverTextColor": -512129,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip": "localhost"
+            }
+        },
+        
+        "quickconnect-online-server":
+        {
+            "text" : ">",
+            "posX" : 40,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "center",
+            "texture" : "cmm:button_smol.png",
+            "hoverTextColor": -512129,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip": "ikillchickeniama.chickenkiller.com"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "#modsloaded# Mods Loaded",
+            "posX" : 10,
+            "posY" : 10,
+            "width" : 90,
+            "height" : 20,
+            "alignment": "top_left",
+            "texture" : "cmm:empty.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui": "mods"
+            }
+        }
+    },
+
+    "texts":
+    {
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 70,
+            "posY" : -70,
+            "color" : -512129,
+            "alignment" : "center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "cmm:%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
